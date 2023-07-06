@@ -1,0 +1,153 @@
+body{
+  align-items: center;
+  text-align: center;
+  background-color: #e4f9f5;
+}
+ p{
+  line-height: 2;
+  text-align: justify;
+ }
+
+#container1{
+background-color: #e4f9f5;
+/* background-image: url(https://th.bing.com/th/id/OIP.333HsLT7kujjsjJ0-ELmwwHaEK?pid=ImgDet&rs=1); */
+}
+.bg{
+    background-color:black;
+    border-radius: 6px;
+    outline:2px solid aqua;
+   box-shadow: 5px 6px 7px rgba(85, 248, 248, 0.7);
+  }
+
+  .nav-item{
+    margin: 15px;
+    border-radius: 6px;
+    outline:2px solid #66bfbf;
+    width:100px;
+   text-align: center;
+   line-height:15px;  
+}
+
+.navbar-nav{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+  .nav-link:hover{
+   /* background-color: rgb(5, 35, 35); */
+   background-color: #e4f9f5;
+   border-radius: .5rem;
+}
+
+ul {
+  width: 100%;
+margin: 0;
+padding: 0;
+}
+
+#home {
+  padding: 40px 0 50px 0;
+  text-align: center;
+  align-items: center;
+  color: #6fbfbf;
+  font-family: 'Merriweather', serif;
+  background-color: black;
+  /* background-image: url(bg-1.jpg); */
+  animation: change 20s infinite ease-in-out;
+}
+
+@keyframes change{
+  0%{
+    background-image: url(bg-1.jpg);
+  }
+
+  50%{
+    background-image: url(bg-2.jpg);
+  }
+
+  100%{
+    background-image: url(bg-1.jpg);
+  }
+}
+
+.home-content{
+  margin: 100px auto 111px auto;
+}
+#home h1{
+    margin: 0 auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+   font-weight: bolder;
+    line-height: 1.6;
+}
+
+#about{
+  background-color: #b8e9e1;
+}
+
+#about{
+  padding-bottom: 60px;
+}
+#about h1 , #skills h1 , #projects h1 , #contact h1{
+  font-size: 60px;
+  line-height: 3;
+}
+
+.about-img{
+  width:13rem;
+}
+
+.about-im{
+  width:40%;
+  margin: 7px;
+}
+.cpp-img{
+  width: 45%;
+}
+#skills{
+  padding-bottom: 60px;
+}
+
+#projects{
+  background-color: #b8e9e1;
+  padding-bottom: 60px;
+}
+
+.project1{
+margin-left: 10%;
+  width: 40%;
+  background-color:#e4f9f5;
+  border: 1px solid black;
+  box-shadow: #e4f9f5;
+  text-align: justify;
+  padding:2% 5%;
+  box-shadow: 3px 4px 5px 0 black , 0 4px 5px 3px white;
+}
+
+.project2{
+  margin-left: 50%;
+    width: 40%;
+    background-color: #6fbfbf;
+    text-align: justify;
+    padding:2% 5%;
+    border: 1px solid black ;
+    box-shadow: 3px 4px 5px 0 black , 0 4px 5px 3px white;
+  }
+
+  @media screen and (max-width:650px){
+    .project1 , .project2{
+      margin:0 5% 20px 5% ;
+      width: 90%;
+        background-color:#e4f9f5;
+        border: 1px solid #6fbfbf ;
+        text-align: justify;
+        padding:2% 5%;
+      }
+  }
+  
+  #contact p{
+    text-align: center;
+    font-size: 2rem;
+  }
+
+ 
